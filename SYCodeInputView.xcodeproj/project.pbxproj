@@ -15,6 +15,8 @@
 		3546315D21946394002D496F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3546315C21946394002D496F /* main.m */; };
 		3546316721946394002D496F /* SYCodeInputViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3546316621946394002D496F /* SYCodeInputViewTests.m */; };
 		3546317221946394002D496F /* SYCodeInputViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3546317121946394002D496F /* SYCodeInputViewUITests.m */; };
+		35463181219463CC002D496F /* SYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 35463180219463CC002D496F /* SYTextField.m */; };
+		354631842194644F002D496F /* SYCodeInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 354631832194644F002D496F /* SYCodeInputView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		3546316D21946394002D496F /* SYCodeInputViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYCodeInputViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3546317121946394002D496F /* SYCodeInputViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYCodeInputViewUITests.m; sourceTree = "<group>"; };
 		3546317321946394002D496F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3546317F219463CC002D496F /* SYTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYTextField.h; sourceTree = "<group>"; };
+		35463180219463CC002D496F /* SYTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYTextField.m; sourceTree = "<group>"; };
+		354631822194644F002D496F /* SYCodeInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYCodeInputView.h; sourceTree = "<group>"; };
+		354631832194644F002D496F /* SYCodeInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYCodeInputView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				3546314E21946391002D496F /* AppDelegate.m */,
 				3546315021946391002D496F /* ViewController.h */,
 				3546315121946391002D496F /* ViewController.m */,
+				354631822194644F002D496F /* SYCodeInputView.h */,
+				354631832194644F002D496F /* SYCodeInputView.m */,
+				3546317F219463CC002D496F /* SYTextField.h */,
+				35463180219463CC002D496F /* SYTextField.m */,
 				3546315321946391002D496F /* Main.storyboard */,
 				3546315621946393002D496F /* Assets.xcassets */,
 				3546315821946393002D496F /* LaunchScreen.storyboard */,
@@ -263,8 +273,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3546315221946391002D496F /* ViewController.m in Sources */,
+				35463181219463CC002D496F /* SYTextField.m in Sources */,
 				3546315D21946394002D496F /* main.m in Sources */,
 				3546314F21946391002D496F /* AppDelegate.m in Sources */,
+				354631842194644F002D496F /* SYCodeInputView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
